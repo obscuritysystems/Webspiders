@@ -1,9 +1,8 @@
 import pycurl                   # used to execute curl in python
 import urllib                   # used to format parameters into a http url
 import StringIO                 # library used to store curl results\
-from bs4 import BeautifulSoup   #library for parsing html content
+from bs4 import BeautifulSoup   # library for parsing html content
 
-people = []
 #http://www.angryobjects.com/2011/10/15/http-with-python-pycurl-by-example/
 passwords = ['test','1234','4321','admin','badmin']
 
